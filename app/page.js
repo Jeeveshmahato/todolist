@@ -50,7 +50,7 @@ const page = () => {
     />
     
     <input type='text'
-    className='text-2xl border-zinc-800 border-4 m-8 px-4 py-2'placeholder='Enter Task here' 
+    className='text-2xl border-zinc-800 border-4 m-8 px-4 py-2'placeholder='Enter Time/Date' 
     value={desc}
     onChange={(e)=>{
       setdesc(e.target.value)
